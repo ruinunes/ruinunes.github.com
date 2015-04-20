@@ -1,0 +1,11 @@
+@import 'another_file.scss';
+$colorLinks:                      #C7F0D9;
+
+body {
+  background: #292D34;
+  font-family: sans-serif;
+}
+
+a {
+  color: $colorLinks;
+}
