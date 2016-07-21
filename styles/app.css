@@ -1,12 +1,19 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:500';
+
 body {
-  color: #69C791; }
+  color: #69C791;
+  font-family: 'Roboto', sans-serif;
+}
 
 h1 {
-  color: #7ED8A5; }
+  color: #7ED8A5;
+}
 
 body {
-  background: #292D34;
-  font-family: sans-serif; }
+  background: #69C791;
+  font-family: sans-serif;
+}
 
 a {
-  color: #C7F0D9; }
+  color: #C7F0D9;
+}

@@ -9,27 +9,27 @@ module.exports = (grunt) ->
         options:
           join: true
         files:
-          "scripts/app.js": ['app/scripts/**/*.coffee']
+          'scripts/app.js': ['app/scripts/**/*.coffee']
 
     concat:
-       coffee:
-         src: ['app/scripts/**/*.coffee']
-         dest: 'scripts/app.js'
-       css:
-         src: 'styles/*.css'
-         dest: 'styles/app.css'
+      coffee:
+        src: ['app/scripts/**/*.coffee']
+        dest: 'scripts/app.js'
+      css:
+        src: 'styles/*.css'
+        dest: 'styles/app.css'
 
     sass:
-     dist:
-       options:
-         sourcemap: 'none'
-       files: [
-        expand: true
-        cwd: 'app/styles'
-        src: ['app.scss']
-        dest: 'styles'
-        ext: '.css'
-       ]
+      dist:
+        options:
+          sourcemap: 'none'
+          files: [
+           expand: true
+           cwd: 'app/styles'
+           src: ['app.scss']
+           dest: 'styles'
+           ext: '.css'
+          ]
 
     cssmin:
       dist:
@@ -43,7 +43,7 @@ module.exports = (grunt) ->
 
     clean:
       build:
-        src: ["scripts/*.js", "!scripts/*.min.js", 'styles/*.css', "!styles/*.min.css"]
+        src: ['scripts/*.js', '!scripts/*.min.js', 'styles/*.css', '!styles/*.min.css']
 
     watch:
       coffee:
