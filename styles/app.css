@@ -2,8 +2,10 @@
 
 body {
   background-color: #202321;
-  color: #69C791;
+  color: #5c9273;
   font-family: 'Roboto', sans-serif;
+  padding: 5%;
+  margin: 0;
 }
 
 h1 {
